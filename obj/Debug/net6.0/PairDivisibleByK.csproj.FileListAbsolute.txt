@@ -1,0 +1,15 @@
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\bin\Debug\net6.0\PairDivisibleByK.exe
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\bin\Debug\net6.0\PairDivisibleByK.deps.json
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\bin\Debug\net6.0\PairDivisibleByK.runtimeconfig.json
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\bin\Debug\net6.0\PairDivisibleByK.dll
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\bin\Debug\net6.0\PairDivisibleByK.pdb
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\obj\Debug\net6.0\PairDivisibleByK.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\obj\Debug\net6.0\PairDivisibleByK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\obj\Debug\net6.0\PairDivisibleByK.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\obj\Debug\net6.0\PairDivisibleByK.AssemblyInfo.cs
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\obj\Debug\net6.0\PairDivisibleByK.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\obj\Debug\net6.0\PairDivisibleByK.dll
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\obj\Debug\net6.0\refint\PairDivisibleByK.dll
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\obj\Debug\net6.0\PairDivisibleByK.pdb
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\obj\Debug\net6.0\PairDivisibleByK.genruntimeconfig.cache
+C:\Users\hp\Desktop\Experimental\PairDivisibleByK\obj\Debug\net6.0\ref\PairDivisibleByK.dll
