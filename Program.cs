@@ -10,10 +10,6 @@
 
       Console.Write("Enter divisor (k): ");
       int k = Convert.ToInt32(Console.ReadLine());
-      if (k == 0)
-      {
-        throw new DivideByZeroException();
-      }
 
       // Sort the list
       inpList.Sort();
@@ -23,9 +19,16 @@
         for (int j = i + 1; j < inpList.Count; j++)
         {
           sum = inpList[i] + inpList[j];
-          if (sum % k == 0)
+          try
           {
-            cnt += 1;
+            if (sum % k == 0)
+            {
+              cnt += 1;
+            }
+          }
+          catch (DivideByZeroException)
+          {
+            break;
           }
         }
       }
