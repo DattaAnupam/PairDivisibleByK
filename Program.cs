@@ -4,8 +4,6 @@
   {
     public static void Main(string[] args)
     {
-      // Test jenkins pipeline
-      Console.WriteLine("test pipeline for git push");
       List<int> inpList = new List<int>()
       {
         GlobalVariables.number30,
