@@ -8,8 +8,8 @@
       int sum = 0;
       int cnt = 0;
 
-      Console.Write("Enter divisor (k): ");
-      int k = Convert.ToInt32(Console.ReadLine());
+      // Fetch data through args
+      int k = Convert.ToInt32(args[0]);
 
       // Sort the list
       inpList.Sort();
