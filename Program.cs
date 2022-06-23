@@ -10,6 +10,10 @@
 
       Console.Write("Enter divisor (k): ");
       int k = Convert.ToInt32(Console.ReadLine());
+      if (k == 0)
+      {
+        throw new DivideByZeroException();
+      }
 
       // Sort the list
       inpList.Sort();
