@@ -4,7 +4,7 @@ pipeline{
     stage("build"){
       steps{
         echo "building the application..."
-        dotnet run 60
+        bat "dotnet run 60"
       }
     }
     stage("test"){
