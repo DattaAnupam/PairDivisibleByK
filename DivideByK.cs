@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PairDivisibleByK
 {
-    internal class DivideByK
+    public class DivideByK
     {
         private readonly List<int> _inpList;
         private readonly int _k;
@@ -35,9 +35,9 @@ namespace PairDivisibleByK
                             cnt += GlobalVariables.number1;
                         }
                     }
-                    catch (DivideByZeroException)
+                    catch (DivideByZeroException e)
                     {
-                        break;
+                        throw new DivideByZeroException(e.ToString());
                     }
                 }
             }
