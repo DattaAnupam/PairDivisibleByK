@@ -1,46 +1,45 @@
 ﻿namespace PairDivisibleByK
 {
-  class Program
-  {
-    public static void Main(string[] args)
+    class Program
     {
-      List<int> inpList = new List<int>()
-      {
-        GlobalVariables.number30,
-        GlobalVariables.number20,
-        GlobalVariables.number100,
-        GlobalVariables.number40,
-        GlobalVariables.number150
-      };
-      int sum = GlobalVariables.number0;
-      int cnt = GlobalVariables.number0;
-
-      // Fetch data through args
-      int k = Convert.ToInt32(args[GlobalVariables.number0]);
-
-      // Sort the list
-      inpList.Sort();
-
-      for (int i = GlobalVariables.number0; i < inpList.Count; i++)
-      {
-        for (int j = i + 1; j < inpList.Count; j++)
+        public static void Main(string[] args)
         {
-          sum = inpList[i] + inpList[j];
-          try
-          {
-            if (sum % k == GlobalVariables.number0)
+            List<int> inpList = new()
             {
-              cnt += GlobalVariables.number1;
-            }
-          }
-          catch (DivideByZeroException)
-          {
-            break;
-          }
-        }
-      }
+                GlobalVariables.number30,
+                GlobalVariables.number20,
+                GlobalVariables.number100,
+                GlobalVariables.number40,
+                GlobalVariables.number150
+            };
+            int cnt = GlobalVariables.number0;
 
-      Console.WriteLine($"Number of pairs divisible by {k} are {cnt}");
+            // Fetch data through args
+            int k = Convert.ToInt32(args[GlobalVariables.number0]);
+
+            // Sort the list
+            inpList.Sort();
+
+            for (int i = GlobalVariables.number0; i < inpList.Count; i++)
+            {
+                for (int j = i + 1; j < inpList.Count; j++)
+                {
+                    int sum = inpList[i] + inpList[j];
+                    try
+                    {
+                        if (sum % k == GlobalVariables.number0)
+                        {
+                            cnt += GlobalVariables.number1;
+                        }
+                    }
+                    catch (DivideByZeroException)
+                    {
+                        break;
+                    }
+                }
+            }
+
+            Console.WriteLine($"Number of pairs divisible by {k} are {cnt}");
+        }
     }
-  }
 }

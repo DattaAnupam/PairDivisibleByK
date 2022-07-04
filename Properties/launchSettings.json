@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PairDivisibleByK": {
+      "commandName": "Project",
+      "commandLineArgs": "60"
+    }
+  }
+}

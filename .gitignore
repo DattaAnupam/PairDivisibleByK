@@ -2,4 +2,6 @@
 
 *.editorconfig
 
+*.suo
+
 obj/
