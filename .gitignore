@@ -1,5 +1,9 @@
 .vscode/
+.vs/
+.vs/PairDivisibleByK/
 
 *.editorconfig
+
+*.suo
 
 obj/
